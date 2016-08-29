@@ -8,8 +8,8 @@ var config = {
 	port: 8080,
 
 	language: 'en',
-	timeFormat: 24,
-	units: 'metric',
+	timeFormat: 12,
+	units: 'imperial',
 
 	modules: [
 		{
