@@ -13,9 +13,9 @@ Module.register("compliments",{
 	defaults: {
 		compliments: {
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Good morning, Zack!",
+				"Seize the day",
+				"Early bird gets the worm!"
 			],
 			afternoon: [
 				"Hello, beauty!",
