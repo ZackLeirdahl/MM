@@ -50,9 +50,9 @@ var config = {
 			position: 'top_right',
 			header: 'Weather Forecast',
 			config: {
-	            location: 'New York',
-				locationID: '5128581',  //ID from http://www.openweathermap.org
-	            appid: 'YOUR_OPENWEATHER_API_KEY'
+	            location: 'Minneapolis,US',
+				locationID: '5037649',  //ID from http://www.openweathermap.org
+	            appid: '0aaaa4198b00cf69fef971a748c74c92'
 			}
 		},
 		{
