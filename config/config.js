@@ -57,7 +57,7 @@ var config = {
 		},
 		{
 			module: 'newsfeed',
-			position: 'bottom_bar',
+			position: 'bottom_right',
 			config: {
 				feeds: [
 					{
@@ -71,7 +71,7 @@ var config = {
 		},
 		{
 			module: 'stocks',
-			position: 'bottom_bar',
+			position: 'bottom_left',
 			config: {
 				stocks: '.DJI,MSFT,AAPL,GOOG,INTC,CICS,TSLA,FB', // stock symbols
 							updateInterval: 37000 // update interval in milliseconds
