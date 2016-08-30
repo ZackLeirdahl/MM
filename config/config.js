@@ -69,6 +69,14 @@ var config = {
 				showPublishDate: true
 			}
 		},
+		{
+			module: 'stocks',
+					position: 'bottom_bar',
+			config: {
+				stocks: '.DJI,MSFT,AAPL,GOOG,INTC,CICS,TSLA,FB', // stock symbols
+							updateInterval: 37000 // update interval in milliseconds
+			}
+		}
 	]
 
 };
