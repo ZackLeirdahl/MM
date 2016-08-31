@@ -82,7 +82,7 @@ var config = {
     	position: 'bottom_center',
     	classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
     	config: {
-    		api_key: 'your_apikey_here',
+    		api_key: 'AIzaSyA-q_Os6zluaKUOVhocwgSsa8E02aW9IK0',
     		mode: 'driving',
     		origin: '2350 Timberwood Drive, Chanhassen, MN 55317',
     		destination: '13490 Bass Lake Road, Maple Grove, MN 55311',
