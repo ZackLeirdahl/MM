@@ -77,25 +77,25 @@ var config = {
 							updateInterval: 37000 // update interval in milliseconds
 			}
 		},
-    {
-    	module: 'MMM-Traffic',
-    	position: 'bottom_center',
-    	classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
-    	config: {
-    		api_key: 'AIzaSyA-q_Os6zluaKUOVhocwgSsa8E02aW9IK0',
-    		mode: 'driving',
-    		origin: '2350 Timberwood Drive, Chanhassen, MN 55317',
-    		destination: '13490 Bass Lake Road, Maple Grove, MN 55311',
-    		arrival_time: '0800', //optional, but needs to be in 24 hour time if used.
-    		route_name: 'Home to Work',
-    		changeColor: true,
-    		showGreen: false,
-    		limitYellow: 5, //Greater than 5% of journey time due to traffic
-    		limitRed: 20, //Greater than 20% of journey time due to traffic
-    		traffic_model: 'pessimistic',
-    		interval: 120000 //2 minutes
-    	}
-    }
+	        {
+		    	module: 'MMM-Traffic',
+		    	position: 'bottom_center',
+		    	classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
+		    	config: {
+		    		api_key: 'AIzaSyA-q_Os6zluaKUOVhocwgSsa8E02aW9IK0',
+		    		mode: 'driving',
+		    		origin: '2350 Timberwood Drive, Chanhassen, MN 55317',
+		    		destination: '13490 Bass Lake Road, Maple Grove, MN 55311',
+		    		arrival_time: '0800', //optional, but needs to be in 24 hour time if used.
+		    		route_name: 'Home to Work',
+		    		changeColor: true,
+		    		showGreen: false,
+		    		limitYellow: 5, //Greater than 5% of journey time due to traffic
+		    		limitRed: 20, //Greater than 20% of journey time due to traffic
+		    		traffic_model: 'pessimistic',
+		    		interval: 120000 //2 minutes
+	    	}
+	    }
 	]
 
 };
