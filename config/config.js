@@ -32,10 +32,7 @@ var config = {
 				]
 			}
 		},
-		{
-			module: 'compliments',
-			position: 'lower_third'
-		},
+
 		{
 			module: 'currentweather',
 			position: 'top_right',
@@ -79,7 +76,7 @@ var config = {
 		},
 	        {
 		    	module: 'MMM-Traffic',
-		    	position: 'bottom_center',
+		    	position: 'lower_third',
 		    	classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
 		    	config: {
 		    		api_key: 'AIzaSyA-q_Os6zluaKUOVhocwgSsa8E02aW9IK0',
